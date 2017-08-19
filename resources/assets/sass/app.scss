@@ -1,0 +1,85 @@
+// Fonts
+@import "font-face";
+
+@include fontFace('Roboto', '/../font/roboto/Roboto-Regular');
+
+// Variables
+@import "variables";
+
+
+body{
+
+	font-family: $font;
+
+	background-color: $body-bg;
+
+	color: $text-color;
+
+	.navCont{
+
+		width: 100vw;
+
+		padding: 0px;
+
+		margin-right: 0px;
+
+		margin-left: 0px;
+		
+		margin-bottom: 115px;
+
+		#mainNav{
+			
+			width: 100vw;
+
+			background-color: $navbg;
+
+			#brand{
+		
+				color: $navtxt;
+
+				font-size: $brandtext-size;
+
+				font-weight: $brandtext-weight;
+
+			}
+		}
+
+	}
+
+	#mainContent{
+
+		.c_title{
+
+			background-color: $titlebg;
+
+		}
+
+		.ct-btn{
+
+			background-color: $bg-btn;
+
+			text-transform: none;
+
+			&:hover, &:focus, &:active{
+
+				background-color: $bg-acbt !important;
+
+			}
+		
+		}
+
+		.ct-select{
+
+			overflow: auto;
+		    
+		    height: 30vh;
+		    
+		    text-align-last: center;
+		    
+		    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+		
+		}
+
+	}
+
+}

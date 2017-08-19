@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/../font/roboto/Roboto-Regular.eot");
+  src: url("/../font/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("/../font/roboto/Roboto-Regular.woff") format("woff"), url("/../font/roboto/Roboto-Regular.ttf") format("truetype"), url("/../font/roboto/Roboto-Regular.svg#Roboto") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: #F6F7F7;
+  color: #1B2838;
+}
+
+body .navCont {
+  width: 100vw;
+  padding: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 115px;
+}
+
+body .navCont #mainNav {
+  width: 100vw;
+  background-color: #1B2838;
+}
+
+body .navCont #mainNav #brand {
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+body #mainContent .c_title {
+  background-color: #1B2838;
+}
+
+body #mainContent .ct-btn {
+  background-color: #1B2838;
+  text-transform: none;
+}
+
+body #mainContent .ct-btn:hover,
+body #mainContent .ct-btn:focus,
+body #mainContent .ct-btn:active {
+  background-color: #2c415a !important;
+}
+
+body #mainContent .ct-select {
+  overflow: auto;
+  height: 30vh;
+  text-align-last: center;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
