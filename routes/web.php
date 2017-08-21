@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','mainController@main');
+
+Route::post('/rel','mainController@relatorio');
+
+Route::post('/bar','mainController@Bargraph');
+
+Route::post('/pizza','mainController@pizzagraph');

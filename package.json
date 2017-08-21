@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
+    "chart.js": "^2.6.0",
     "mdbootstrap": "^4.4.1",
     "tether": "^1.4.0"
   }

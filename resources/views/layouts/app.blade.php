@@ -23,6 +23,11 @@
         
         <link href="{{asset('css/mdb.css')}}" rel="stylesheet">
         
+
+        <!-- Bootstrap core CSS -->
+        
+        <link href="{{asset('css/chartist.min.css')}}" rel="stylesheet">
+        
         <!-- Custom style -->
         
         <link href="{{asset('css/app.css')}}" rel="stylesheet">

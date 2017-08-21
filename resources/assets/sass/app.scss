@@ -74,10 +74,34 @@ body{
 		    
 		    height: 30vh;
 		    
-		    text-align-last: center;
-		    
 		    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
 		
+		}
+
+		#relatorio{
+
+			display: none;
+
+		}
+
+		#bargraf{
+
+			display: none;
+
+		}
+
+		#pizza{
+
+			display: none;
+
+		}
+
+		#headtable{
+
+			color: white;
+			
+			background-color: $navbg;
+
 		}
 
 	}

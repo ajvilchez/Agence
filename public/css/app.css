@@ -49,8 +49,24 @@ body #mainContent .ct-btn:active {
 body #mainContent .ct-select {
   overflow: auto;
   height: 30vh;
-  text-align-last: center;
   -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.18), 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+body #mainContent #relatorio {
+  display: none;
+}
+
+body #mainContent #bargraf {
+  display: none;
+}
+
+body #mainContent #pizza {
+  display: none;
+}
+
+body #mainContent #headtable {
+  color: white;
+  background-color: #1B2838;
 }
 
